@@ -1,0 +1,12 @@
+POST http://localhost:8080/users/register
+accept: application/json
+customer-id: 1
+Content-Type: application/json
+
+{
+  "email": "userD@email",
+  "name": "userD",
+  "registerDate": "2020-09-01"
+}
+
+

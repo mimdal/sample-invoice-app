@@ -1,0 +1,13 @@
+# curl -X POST "http://localhost:8080/invoices" -H "accept: application/json" -H "customer-id: 1" -H "Content-Type: application/json" -d "{ \"endDate\": \"yyyy-MM-dd\", \"startDate\": \"yyyy-MM-dd\"}"
+POST http://localhost:8080/invoices
+accept: application/json
+customer-id: 1
+Content-Type: application/json
+
+{
+  "startDate": "2020-01-01",
+  "endDate": "2020-12-30"
+}
+
+###
+

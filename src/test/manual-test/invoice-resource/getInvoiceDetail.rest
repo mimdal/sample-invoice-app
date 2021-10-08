@@ -1,0 +1,7 @@
+# curl -X GET "http://localhost:8080/invoices/1" -H "accept: application/json" -H "customer-id: 1"
+GET http://localhost:8080/invoices/41
+accept: application/json
+customer-id: 1
+Content-Type: application/json
+###
+

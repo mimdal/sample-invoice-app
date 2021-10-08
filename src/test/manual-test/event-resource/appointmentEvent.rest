@@ -1,0 +1,13 @@
+# curl -X POST "http://localhost:8080/events/appointment" -H "accept: application/json" -H "customer-id: 1" -H "user-id: 1" -H "Content-Type: application/json" -d "{ \"date\": \"yyyy-MM-dd\"}"
+POST http://localhost:8080/events/appointment
+accept: application/json
+customer-id: 1
+user-id: 10
+Content-Type: application/json
+
+{
+  "date": "2020-12-27"
+}
+
+###
+

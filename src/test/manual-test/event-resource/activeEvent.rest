@@ -1,0 +1,12 @@
+POST http://localhost:8080/events/active
+accept: application/json
+customer-id: 1
+user-id: 10
+Content-Type: application/json
+
+{
+  "date": "2021-01-11"
+}
+
+###
+
